@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 20px 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: antiquewhite;
+    border: 1.5px solid #000;
+    cursor: pointer;
+}
+
+#start-btn{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 8px;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    align-self: center;
+    color: black;
+}
+
+#message-container {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 10px;
+    color: #333;
+}
+
+#restart-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#restart-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#restart-btn:hover {
+    background-color: #45a049;
+}
+
+
+
